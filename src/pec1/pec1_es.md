@@ -2,16 +2,16 @@
 
 ## Ejercicio T1
 **T.1.1
-#dev1
+--dev1
 git add .
 git commit -m "Cambios de Dev1"
 git push
-#dev2
+--dev2
 git pull         # importante
 git add .
 git commit -m "Cambios de Dev2"
 git push
-#dev3
+--dev3
 git clone <url-del-repo>     #porque todavia no tiene repo local
 git add .
 git commit -m "Cambios de Dev3"
@@ -28,7 +28,7 @@ git add .
 git commit -m "  color azul para el backgroud"
 git push
 asi git no puede decidir que modificacion tiene que conservar :
-# solucion 
+---SOLUCION: 
 div2  debe hacer :
 1:git pull Para traer los cambios del repositorio y ver el conflicto.
 2:edita el archivo styles.cs
